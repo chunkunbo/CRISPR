@@ -19,7 +19,7 @@ More gRNA off-target identifying autamata can be found in the paper.
 Users can use any genomes/chromosomes as input. However, there can't by any new-line symbols inside the input. Scripts that can remove new-lines symbols are provided.
 
 ## ANML Generators
-The input formats for ANML generators are as follows.The first 20 characters are the gRNA targeting sequences and the following characters are the PAM sequences.
+The input formats for ANML generators are as follows. The first 20 characters are the gRNA targeting sequences and the following characters are the PAM sequences.
 ```
 CTCAGGATACGCACTTTGTGagg
 CTCCTCTCGTCCGCGTGCTTagg
