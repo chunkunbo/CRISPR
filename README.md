@@ -17,3 +17,11 @@ More gRNA off-target identifying autamata can be found in the paper.
 
 ## Input Genome/Chromosome
 Users can use any genomes/chromosomes as input. However, there can't by any new-line symbols inside the input. Scripts that can remove new-lines symbols are provided.
+
+## Input Generators for CasOFFinder and CasOT
+We compare the automata-based approach with two state-of-the-art tools, which have different input formats. Therefore, we provide two different generators for CasOFFinder and CasOT respectively.
+
+## ANML Generator
+Because CasOFFinder and CasOT allow mismatches in different positions, we provide two differnt ANML generators for CasOFFinder and CasOT respectively.
+
+
