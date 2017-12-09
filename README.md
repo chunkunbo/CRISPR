@@ -14,3 +14,6 @@ The above figure shows an automaton design recognizing the sequence “TAATATAG�
 
 One example of gRNA off-target identifying automaton is shown in the above figure. This design allows the mismatch to take place in any position in the gRNA targeting sequence. The design is straightforward and we use the Hamming distance automata to match the gRNA targeting sequence with one mismatch allowed. We then connect the STEs in the last column in the gRNA targeting sequence to the start of the PAM sequence. No mismatches are allowed in the PAM sequence, so we just connect one STE to another. The STE storing the last character is the reporting STE. The STE storing “*” matches with any input symbol so we can match PAM sequences, such as “NGG” in streptococcus pyogenes, where “N” refers to any DNA character in {AaTtGgCc} in this context.
 More gRNA off-target identifying autamata can be found in the paper.
+
+## Input Genome/Chromosome
+Users can use any genomes/chromosomes as input. However, there can't by any new-line symbols inside the input. Scripts that can remove new-lines symbols are provided.
