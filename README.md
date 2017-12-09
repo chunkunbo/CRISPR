@@ -18,10 +18,15 @@ More gRNA off-target identifying autamata can be found in the paper.
 ## Input Genome/Chromosome
 Users can use any genomes/chromosomes as input. However, there can't by any new-line symbols inside the input. Scripts that can remove new-lines symbols are provided.
 
-## Generating gRNA targeting sequences
-We compare the automata-based approach with two state-of-the-art tools (CasOFFinder and CasOT), but these tools have different input formats for gRNA targeting sequences. Therefore, we provide two different generators for CasOFFinder and CasOT respectively to generate gRNA targeting sequences. The output file of these generators will be used as the input of the ANML generator.
+## ANML Generators
+The input formats for ANML generators are as follows.The first 20 characters are the gRNA targeting sequences and the following characters are the PAM sequences.
+```
+CTCAGGATACGCACTTTGTGagg
+CTCCTCTCGTCCGCGTGCTTagg
+GAATCCTCCGACGAGATTGGagg
+...
+```
 
-## ANML Generator
-Because CasOFFinder and CasOT allow mismatches in different positions, we provide two differnt ANML generators for CasOFFinder and CasOT respectively.
+We compare the automata-based approach with two state-of-the-art tools (CasOFFinder and CasOT), but these tools allow mismatches in different positions, leading to differnet automata designs. Therefore, we provide two differnt ANML generators for CasOFFinder and CasOT respectively.
 
 
