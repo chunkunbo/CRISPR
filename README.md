@@ -27,6 +27,6 @@ GAATCCTCCGACGAGATTGGagg
 ...
 ```
 
-We compare the automata-based approach with two state-of-the-art tools (CasOFFinder and CasOT), but these tools allow mismatches in different positions, leading to differnet automata designs. Therefore, we provide two differnt ANML generators for CasOFFinder and CasOT respectively.
+We compare the automata-based approach with two state-of-the-art tools (CasOFFinder and CasOT), but these tools allow mismatches in different positions, leading to differnet automata designs. Therefore, we provide two differnt ANML generators for CasOFFinder and CasOT respectively. These generators are in the ANML folder.
 
 
