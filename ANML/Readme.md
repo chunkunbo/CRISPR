@@ -10,6 +10,9 @@ Users can speficy the output names.
 ```
 python input_generator.py 100.txt 100 agg > 100.txt
 ```
+We provide one file containing 100 different gRAN target sequences as one example. For previous work, they only process a few gRNA target sequences because their process was too slow.
+However, using spatial architecture provides a much faster solution.
+Users can can also use the above script to generate even more sequences based on their specific request.
 
 # CasOFFinder
 One needs to provide two parameters for CasOFFinder ANML generator. The first one is the input file name, which can be generated using the input generator for CasOFFinder. The second one is the distance allowed in the gRNA targeting sequence.
