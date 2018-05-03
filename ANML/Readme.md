@@ -8,7 +8,7 @@ Users can speficy the output names.
 
 ### Example Usage
 ```
-python input_generator.py 100.txt 100 agg > 100.txt
+python input_generator.py 100 agg > 100.txt
 ```
 We provide one file containing 100 different gRAN target sequences as one example. For previous work, they only process a few gRNA target sequences because their process was too slow.
 However, using spatial architecture provides a much faster solution.
